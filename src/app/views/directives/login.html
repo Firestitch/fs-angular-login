@@ -14,7 +14,7 @@
 </fs-heading>
 
 <div ng-if="activation">
-	<div ng-if="!userActive">
+	<div ng-if="!activeUser">
 	    <md-checkbox-container ng-show="!user.activated">
 	        <md-checkbox ng-model="user.send_activation" aria-label="Send invite" ng-true-value="1" ng-false-value="0">Send activation email</md-checkbox>
 	        <div class="hint">
@@ -23,7 +23,7 @@
 	    </md-checkbox-container>
 	</div>
 
-	<div ng-if="userActive && !user.activated">
+	<div ng-if="activeUser && !user.activated">
 		<a href ng-click="sendActivation()" class="activate-send">Send activation email</a>
 		<div class="hint">
 	    	User will be invited to setup their password to login

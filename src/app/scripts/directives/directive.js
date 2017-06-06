@@ -11,7 +11,7 @@
             	fsActivateUser: '&',
             	fsSendActivation: '&',
             	fsSavePassword: '&',
-            	userActive: '=?fsUserActive'
+            	activeUser: '=?fsActiveUser'
             },
             controller: function($scope) {
 
