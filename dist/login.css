@@ -1,0 +1,20 @@
+fs-login a.activate-user
+fs-login a.activate-send {
+	display: block;
+}
+
+
+fs-login a.activate-user + .hint,
+fs-login a.activate-send + .hint {
+	margin-bottom: 8px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+fs-login fs-heading {
+	margin: 0 0 10px 0;
+}
+
+fs-heading fs-heading-subheading {
+	margin: 0;
+}

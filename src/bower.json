@@ -1,0 +1,19 @@
+{
+  "name": "fs-angular-login",
+  "namespace": "login",
+  "port": "5052",
+  "moduleName": "app",
+  "version": "0.0.0",
+  "appPath": "app",
+  "dependencies": {
+    "angular": "1.6.3",
+    "angular-material": "1.1.1",
+    "angular-ui-router": "0.3.2",
+    "fs-angular-password": "^1.0.0",
+    "fs-angular-date": "^1.0.0",
+    "fs-boilerplate-styles": "^1.0.0"
+  },
+  "resolutions": {
+    "angular": "1.6.3"
+  }
+}

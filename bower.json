@@ -1,0 +1,21 @@
+{
+  "name": "fs-angular-login",
+  "description": "",
+  "main": [
+    "dist/login.js",
+    "dist/login.css"
+  ],
+  "authors": [
+    "Firestitch Inc."
+  ],
+  "dependencies": {
+    "fs-angular-password": "^1.0.0",
+    "fs-angular-date": "^1.0.0"
+  },
+  "license": "MIT",
+  "ignore": [
+    "src",
+    ".gitignore"
+  ],
+  "private": false
+}
